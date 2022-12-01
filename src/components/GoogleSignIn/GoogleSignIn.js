@@ -29,12 +29,13 @@ const GoogleSignIn = () => {
     }
     return (
         <div>
-            {/* User Information  */}
-            {user.uid &&
-                < h2 className="user-name"> User Name: {user.displayName}</ h2>
-            }
+
             {/* Google sign in authentication system start here   */}
             <div className="google-sign-in">
+                {/* User Information  */}
+            {user.uid &&
+                < h2 className="user-name"> User Name: {user.displayName}</ h2>
+                }
                 <h1>Google Sign In</h1>
 
                 <div className="btn-group">

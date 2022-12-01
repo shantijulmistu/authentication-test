@@ -28,13 +28,12 @@ const GithubSignIn = () => {
     }
     return (
         <div>
-            {/* User Information  */}
-            {user.uid &&
-                < h2 className="user-name"> User Name: {user.displayName}</ h2>
-            }
-
             {/* Github sign in authentication system starts here  */}
             <div className="github-sign-in">
+                {/* User Information  */}
+            {user.uid &&
+                < h2 className="user-name"> User Name: {user.displayName}</ h2>
+                }
                 <h1>Github Sign In</h1>
                 <div className="btn-group">
                     {user.uid ?

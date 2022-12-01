@@ -5,6 +5,10 @@
     border-radius: 10px;
     width: 50%;
     margin: 0 auto;
+    text-align: center;
     margin-top: 40px;
     box-shadow: 0 0 10px 7px rgb(29, 66, 3);
+}
+.user-name {
+    text-align: center;
 }

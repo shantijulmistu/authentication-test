@@ -14,6 +14,7 @@
     border-radius: 10px;
     width: 50%;
     margin: 0 auto;
+    text-align: center;
     margin-top: 40px;
     box-shadow: 0 0 10px 7px rgb(29, 66, 3);
 }
@@ -27,8 +28,6 @@
 
 .sign-out-button {
     padding: 20px 60px;
-    display: flex;
-    align-items: center;
     color: white;
     font-size: 20px;
     border: 0;

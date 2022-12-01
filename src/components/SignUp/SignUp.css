@@ -1,0 +1,16 @@
+.success-message {
+    color: blue;
+}
+
+.error-message {
+    color: red;
+}
+
+.reset-btn {
+    padding: 5px 10px;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    background: linear-gradient(tomato, orange);
+}

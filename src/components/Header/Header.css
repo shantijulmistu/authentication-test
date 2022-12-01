@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.header a {
+    text-decoration: none;
+    border: 1px solid lightgrey;
+    background-color: tomato;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
