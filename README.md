@@ -4,4 +4,9 @@
 1. React
 2. State management using useState.
 
-# Live website:  
+## Features:
+1. Sign In with Google.
+2. Sign In with GitHub.
+3. Sign In with Email and Password
+
+# Live website:  https://authentication-test-with-firebase.netlify.app/
