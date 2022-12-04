@@ -8,8 +8,8 @@ const Header = () => {
             <nav>
                 <Link to='/signInWithGoogle'>Sign in with Google</Link>
                 <Link to='/signInWithGitHub'>Sign in with GitHub</Link>
-                <Link to='signInWithEmailPassword'>Sign in with Email and password</Link>
-                <Link to='signInWithFacebook'>Sign in with Facebook</Link>
+                <Link to='/signInWithEmailPassword'>Sign in with Email and password</Link>
+                <Link to='/signInWithFacebook'>Sign in with Facebook</Link>
             </nav>
         </div>
     );

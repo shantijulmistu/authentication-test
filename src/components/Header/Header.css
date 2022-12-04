@@ -8,10 +8,13 @@
 .header a {
     text-decoration: none;
     border: 1px solid lightgrey;
-    background-color: tomato;
+    background: linear-gradient(tomato, orange);
     color: white;
     margin: 20px;
     padding: 10px;
     border: 0;
     border-radius: 5px;
+}
+.header a:hover {
+    background-color: indianred;
 }

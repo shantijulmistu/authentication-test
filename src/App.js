@@ -5,6 +5,7 @@ import Main from './components/Main';
 import GithubSignIn from './components/GithubSignIn/GithubSignIn';
 import GoogleSignIn from './components/GoogleSignIn/GoogleSignIn';
 import EmailPasswordSignIn from './components/EmailPasswordSignIn/EmailPasswordSignIn';
+import FacebookSignIn from './components/FacebookSignIn/FacebookSignIn';
 
 
 function App() {
@@ -13,6 +14,10 @@ function App() {
       path: '/',
       element: <Main></Main>,
       children: [
+        {
+          path: '/',
+          element: <EmailPasswordSignIn></EmailPasswordSignIn>
+        },
         {
           path: '/signInWithGoogle',
           element: <GoogleSignIn></GoogleSignIn>
@@ -26,9 +31,13 @@ function App() {
           element: <EmailPasswordSignIn></EmailPasswordSignIn>
         },
         {
+          path: '/signInWithFacebook',
+          element: <FacebookSignIn></FacebookSignIn>
+        },
+        {
           path: '/signUp',
           element: <SignUp></SignUp>
-        },
+        }
       ]
     }
   ])
