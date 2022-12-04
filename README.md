@@ -8,5 +8,6 @@
 1. Sign In with Google.
 2. Sign In with GitHub.
 3. Sign In with Email and Password
+4. Sign In with Facebook
 
-# Live website:  https://authentication-test-with-firebase.netlify.app/
+# Live website: https://authentication-test-with-firebase.netlify.app
